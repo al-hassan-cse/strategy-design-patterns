@@ -1,0 +1,23 @@
+
+<?php
+class ManageSqlite{
+  
+    public function setHost($host){
+        return $host;
+    }
+    public function setDB($db){
+        return $db;
+    }
+    public function setUsername($username){
+        return $username;
+    }
+    public function setPassword($password){
+        return $password;
+    }
+
+    public function connect(){
+        
+    }
+
+}
+?>
